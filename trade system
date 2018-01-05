@@ -1,0 +1,13 @@
+main program
+  init
+    login
+    fill running average
+  main loop
+    async
+      get price
+      add to running average
+      calculate buy or sell based on running avg
+    wait x seconds
+
+stacks and pipes
+  

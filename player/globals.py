@@ -1,0 +1,2 @@
+BUY = None
+SELL = None
