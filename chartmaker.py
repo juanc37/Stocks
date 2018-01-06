@@ -69,11 +69,9 @@ def getMonthly(prices, state):
             monthCount+=1
     return months, homeprice
 
-prices = []
-months = []
-homeprice = []
+
 prices = parseCSV()
-months, homeprice = getMonthly(prices, 'Wyoming')
+months, homeprice = getMonthly(prices, 'California')
 
 plt.xlabel('Month (Starting at 1996)')
 plt.ylabel('Price')
